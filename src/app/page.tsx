@@ -23,7 +23,7 @@ import SpecialButton from "@/components/SpecialButton";
 export default function Home() {
 
   return (
-    <div className="absolute flex flex-col items-center justify-center min-h-screen h-fit min-w-screen w-fit space-y-10 px-10 bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem] -z-10">
+    <div className="absolute flex flex-col items-center justify-center h-fit w-fit space-y-10 px-10 bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem] -z-10">
 
       <div className="absolute -z-1  bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"></div>
 
@@ -33,7 +33,7 @@ export default function Home() {
 
       <div className="text-center space-y-5">
         <h1 className="text-4xl font-semibold">Hello world! I am Aditya Banka.</h1>
-        <h2 className="text-xl md:px-20 not-md:text-justify font-thin">I am a software engineer and a web developer. I love to build things and learn new things. I am passionate about technology and I am always looking for new challenges to solve. </h2>
+        <h2 className="text-xl md:px-20 not-md:text-justify">I am a software engineer and a web developer. I love to build things and learn new things. I am passionate about technology and I am always looking for new challenges to solve. </h2>
       </div>
 
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5 transition duration-100" >
@@ -88,9 +88,7 @@ export default function Home() {
 
       </div>
 
-      <div className="flex items-center justify-center mb-10">
-        <h1 className="text-xs">Made by <a href="https://adityabanka.com" target="_blank" rel="noreferrer">@AdityaBanka</a></h1>
-      </div>
+        <a href="https://adityabanka.com" target="_blank" rel="noreferrer" className="font-light mb-10">Made by @AdityaBanka</a>
 
     </div>
   );
