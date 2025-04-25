@@ -23,11 +23,9 @@ import SpecialButton from "@/components/SpecialButton";
 export default function Home() {
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen h-fit min-w-screen w-fit space-y-10 px-10">
+    <div className="absolute flex flex-col items-center justify-center min-h-screen h-fit min-w-screen w-fit space-y-10 px-10 bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem] -z-10">
 
-      <div className="absolute inset-0 -z-10 min-h-full h-fit min-w-full w-fit bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
-        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"></div>
-      </div>
+      <div className="absolute -z-1  bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"></div>
 
       <div className="relative w-55 h-55 mt-20">
         <Image src={Logo} alt="Logo" fill className=" object-contain" />
