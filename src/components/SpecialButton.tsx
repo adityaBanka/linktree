@@ -15,7 +15,7 @@ function SpecialButton({ logoName, primaryLogo, secondaryLogo, backgroundColor, 
     const [isHovering, setIsHovering] = useState(false)
     return (
         <button {...props}
-            className={`w-70 flex items-center justify-center bg-white/50 rounded-4xl shadow hover:scale-105 hover:shadow-md py-5 px-10 transition duration-100 space-x-5`}
+            className={`w-70 flex items-center justify-center bg-gray-50 rounded-4xl shadow hover:scale-105 hover:shadow-md py-5 px-10 transition duration-100 space-x-5`}
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
             style={{
