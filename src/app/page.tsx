@@ -36,7 +36,7 @@ export default function Home() {
         <h2 className="text-xl md:px-20 not-md:text-justify">I am a software engineer and a web developer. I love to build things and learn new things. I am passionate about technology and I am always looking for new challenges to solve. </h2>
       </div>
 
-      <div className="grid md:grid-cols-3 grid-cols-2 gap-5 transition duration-100" >
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-5 transition duration-100" >
 
         <SpecialButton
           onClick={() => window.open("https://www.facebook.com/adityabanka", "_blank")}
