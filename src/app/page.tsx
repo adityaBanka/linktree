@@ -25,20 +25,23 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen h-fit min-w-screen w-fit space-y-10">
 
-      <div className="absolute inset-0 -z-10 h-full w-full bg-white [background:radial-gradient(125%_125%_at_50%_10%,#f3f4f6_40%,#72ceff_100%)] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+      <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
+        <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"></div>
+      </div>
 
       <div className="relative w-55 h-55">
         <Image src={Logo} alt="Logo" fill className=" object-contain" />
       </div>
 
       <div className="text-center space-y-5 mx-10">
-        <h1 className="text-4xl">Hello world! I am Aditya Banka.</h1>
-        <h2 className="text-xl md:px-20 not-md:text-justify">I am a software engineer and a web developer. I love to build things and learn new things. I am passionate about technology and I am always looking for new challenges to solve.</h2>
+        <h1 className="text-4xl font-semibold">Hello world! I am Aditya Banka.</h1>
+        <h2 className="text-xl md:px-20 not-md:text-justify font-thin">I am a software engineer and a web developer. I love to build things and learn new things. I am passionate about technology and I am always looking for new challenges to solve. </h2>
       </div>
 
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5 transition duration-100" >
 
         <SpecialButton
+          onClick={() => window.open("https://www.facebook.com/adityabanka", "_blank")}
           logoName="Facebook"
           primaryLogo={facebook}
           secondaryLogo={facebook_white}
@@ -46,6 +49,7 @@ export default function Home() {
         />
 
         <SpecialButton
+          onClick={() => window.open("https://www.instagram.com/adityabanka", "_blank")}
           logoName="Instagram"
           primaryLogo={instagram}
           secondaryLogo={instagram_white}
@@ -53,6 +57,7 @@ export default function Home() {
         />
 
         <SpecialButton
+          onClick={() => window.open("https://www.linkedin.com/in/adityabanka", "_blank")}
           logoName="LinkedIn"
           primaryLogo={linkedin}
           secondaryLogo={linkedin_white}
@@ -60,6 +65,7 @@ export default function Home() {
         />
 
         <SpecialButton
+          onClick={() => window.open("https://www.threads.net/adityabanka", "_blank")}
           logoName="Threads"
           primaryLogo={thread}
           secondaryLogo={thread_white}
@@ -67,6 +73,7 @@ export default function Home() {
         />
 
         <SpecialButton
+          onClick={() => window.open("https://wa.me/918586098888", "_blank")}
           logoName="Whatsapp"
           primaryLogo={whatsapp}
           secondaryLogo={whatsapp_white}
@@ -74,12 +81,17 @@ export default function Home() {
         />
 
         <SpecialButton
+          onClick={() => window.open("https://x.com/adityabanka", "_blank")}
           logoName="X.com"
           primaryLogo={x}
           secondaryLogo={x_white}
           backgroundColor="#000000"
         />
 
+      </div>
+
+      <div>
+        <h1 className="text-xs">Made by <a href="https://adityabanka.com" target="_blank" rel="noreferrer">@AdityaBanka</a></h1>
       </div>
 
     </div>
