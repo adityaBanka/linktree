@@ -15,7 +15,7 @@ function SpecialButton({ logoName, primaryLogo, secondaryLogo, backgroundColor, 
     const [isHovering, setIsHovering] = useState(false)
     return (
         <button {...props}
-            className={`w-70 flex items-center justify-center bg-gray-50 rounded-4xl shadow hover:scale-105 hover:shadow-md py-5 px-10 transition duration-100 space-x-5`}
+            className={`flex items-center justify-center bg-white rounded-4xl outline shadow hover:scale-105 hover:shadow-md py-5 px-5 md:px-10 transition duration-100 space-x-3 md:space-x-5`}
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
             style={{
@@ -25,8 +25,8 @@ function SpecialButton({ logoName, primaryLogo, secondaryLogo, backgroundColor, 
             <Image
                 src={isHovering ? secondaryLogo : primaryLogo}
                 alt={`${logoName} + Logo`}
-                width={50}
-                height={50}
+                width={32}
+                height={32}
                 className="object-contain" />
             <p className={`text-xl ${isHovering ? "text-white" : ""}`}>{logoName}</p>
         </button>
