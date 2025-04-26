@@ -20,6 +20,7 @@ import x_white from "@/assets/x_white.svg";
 
 import SpecialButton from "@/components/SpecialButton";
 
+
 export default function Home() {
 
   return (
