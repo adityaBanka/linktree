@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   title: "Rishav Raina",
   description: "All my links and social media in one place. Let's connect!",
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
   },
 };
 
