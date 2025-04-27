@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rishav Raina",
-  description: "All my links and social media in one place. Let's connect!",
+  title: "Generic Linktree",
+  description: "All your links and social media in one place. Let's connect!",
   icons: {
     icon: "/logo.svg",
     shortcut: "/logo.svg",
