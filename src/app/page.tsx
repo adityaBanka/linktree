@@ -33,8 +33,8 @@ export default function Home() {
       </div>
 
       <div className="text-center space-y-5">
-        <h1 className="text-2xl font-semibold">To the dreamers! I am <span className="text-[#15447a] text-5xl font-bold">Rishav Raina</span>.</h1>
-        <h2 className="text-xl md:px-20 not-md:text-justify">I am an XYZ. I do XYZ. You can hire me for XYZ. I&apos;m most active on XYZ, let&apos;s connect.</h2>
+        <h1 className="text-2xl font-semibold">To the dreamers! I am <span className="text-[#15447a] text-5xl font-bold text-nowrap">Your name</span>.</h1>
+        <h2 className="text-xl md:px-20 not-md:text-justify">I am a XYZ. I do XYZ. You can hire me for XYZ. I&apos;m most active on XYZ, let&apos;s connect.</h2>
       </div>
 
       <div className="grid md:grid-cols-3 grid-cols-1 gap-5 transition duration-100" >
